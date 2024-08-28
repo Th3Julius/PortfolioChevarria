@@ -1,0 +1,42 @@
+.main-section{
+  background: #e6e6e6;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  .contenedor-main{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+    margin-bottom: 14%;
+    gap: 25px;
+
+    .imagen-principal{
+      background: black;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+     
+    }
+    .texto{
+      font-size: xx-large;
+      text-align: center;
+      font-weight: bold;
+
+    }
+    .boton{
+      border: none;
+      border-radius: 20px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-inline: 20px;
+    }
+  }
+}
